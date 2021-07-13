@@ -1,9 +1,11 @@
 # [Microsoft-Engage-Link Up! 🔗:people_holding_hands:]( https://link-up.netlify.app/  )
 #### A simple and elegant web application for multi-users that brings you face-to-face 👩🏻🧑🏻 with the people who matter most and allows you to talk, text chat 💬 and share pictures both individually and in groups! The video application is based on React, Node Express and WebRTC and the chat application is based on Firebase and ChatEngine.io
-The project is deployed at https://link-up.netlify.app/
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### The project is deployed at https://link-up.netlify.app/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/67543895/125393062-e204e980-e3c4-11eb-9ea9-db44aa74fa26.png)
 
+# Features 🤩
 ### Connect with your peers via video calling 🤳🏻 or chat 💬!
 #### Link Up Video Call 🎦:
 - [x] User's Choice Room Name and User Name 🕺: Wish to have a room name of your choice? No worries!😌
@@ -24,13 +26,15 @@ The project is deployed at https://link-up.netlify.app/
 - [x] Message Formatting 🎨: Wish to highlight you messages? No worries, you may use bold, italics, underline or strike to format your messages!
 - [x] Share images 📸🖼️: Send or receive photogrphs
 - [x] Receive Mails when offline 📧: Worried that you might miss some important messages? No worries, you'll receive emails when offline📩
-- [x] People Section:  See all added persons in a particular team along with their online status
-- [x] Photos Section: See all shared or received images in the photos section
-- [x] Delete/Add Group Members
-- [x] Profile Pic
+- [x] People Section 🙎🏻‍♀️🙎🏻‍♂️:  See all added persons in a particular team along with their online status
+- [x] Photos Section 🖼️: See all shared or received images in the photos section 
+- [x] Delete/Add Group Members 
+- [x] Profile Pic 🙎🏻‍♀️
 
 ![image](https://user-images.githubusercontent.com/67543895/125517094-10fbe971-3784-46b9-a514-ad8f69b5b77b.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------
+
 # Flow 
 ![image](https://user-images.githubusercontent.com/67543895/125451818-cc1853d8-3cec-4293-9aed-38b51011d955.png)
 
@@ -68,18 +72,29 @@ Chat Engine is an API which makes it easy to build chat services. Building a cha
 Google Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics, reporting and fixing app crashes, creating marketing and product experiment. It has been used to provide social authentication using Google and Facebook!
 
 ![image](https://user-images.githubusercontent.com/67543895/125445874-af203c0b-2dc3-435a-9d44-5270aa5b8e84.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Future Improvements :dart: :
 - Connect Firebase auth with video call create room page so that the user doesn't need to put username again
 - Add whiteboard
 - Add emoticons reactions 
 - Video gets highlighted for the user who speaks
+- Make the UI Accessible
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Contributor:
 :octocat: [Monalika Kapoor]( https://github.com/MonalikaKapoor )
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # References :books: :
 - [Video Call App](https://youtu.be/ZVznzY7EjuY)
 - [Chat App](https://youtu.be/Bv9Js3QLOLY)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### [Presentation](https://drive.google.com/file/d/1Y1FJ0neyI1rW8gP8u2yb5WiNi3-BXoSW/view?usp=sharing)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
