@@ -1,18 +1,15 @@
-# Video-Group-Meeting
+# Link Up Video Call
 
 Link Up Video Call is a simple video chat application for multi-users based on React, Node Express and WebRTC.
 
-
-**Technologies Used**
+## Technologies Used
 
 - React
 - Node + Express
 - WebRTC
 - Socket.io
-- [Syled-components](https://styled-components.com/)
+- [Styled-components](https://styled-components.com/)
 - [Simple-peer](https://github.com/feross/simple-peer)
-
----
 
 ## Features
 
@@ -22,3 +19,31 @@ Link Up Video Call is a simple video chat application for multi-users based on R
 - Mute Video/Audio
 - Screen Sharing
 
+## Installation
+### Clone
+- Clone this repo to your local machine using
+
+### Setup
+**Client**
+> Move to client folder, update and install this package
+<pre>
+  <code>
+    /* Install */
+    npm install
+    
+    /* Run */
+    npm start
+  </code>
+</pre>
+
+**Server**
+> Move to server folder, update and install this package
+<pre>
+  <code>
+    /* Install */
+    npm install
+    
+    /* Run */
+    npm run dev
+  </code>
+</pre>
