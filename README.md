@@ -75,7 +75,7 @@ Google Firebase is a Google-backed application development software that enables
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Future Improvements :dart: :
+# Future Improvements :dart: 
 - Connect Firebase auth with video call create room page so that the user doesn't need to put username again
 - Add whiteboard
 - Add emoticons reactions 
@@ -85,17 +85,17 @@ Google Firebase is a Google-backed application development software that enables
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Contributor:
+# Contributor 👩🏻‍💻
 :octocat: [Monalika Kapoor]( https://github.com/MonalikaKapoor )
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# References :books: :
+# References :books: 
 - [Video Call App](https://youtu.be/ZVznzY7EjuY)
 - [Chat App](https://youtu.be/Bv9Js3QLOLY)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+# Technical Documentation 🗂️
 ### [Presentation](https://drive.google.com/file/d/1Y1FJ0neyI1rW8gP8u2yb5WiNi3-BXoSW/view?usp=sharing)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
