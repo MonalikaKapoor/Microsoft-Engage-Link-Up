@@ -64,7 +64,7 @@ Simple one-to-one WebRTC video/voice and data channels.
    - node.js duplex stream interface
 ## Socket.IO 📡
 Socket.IO is a JavaScript library for realtime web applications. It enables realtime, bi-directional communication between web clients and servers. It has two parts: a client-side library that runs in the browser, and a server-side library for Node.js. Both components have a nearly identical API. Like Node.js, it is event-driven.
-## Styled Components 😎
+## Styled Components 💅🏻😎
 Styled-components lets you write actual CSS code to style your components using tagged template literals (a recent addition to JavaScript) and the power of CSS,. It removes the mapping between components and styles – using components as a low-level styling construct could not be easier.
 ## ChatEngine.IO 💬
 Chat Engine is an API which makes it easy to build chat services. Building a chat from scratch takes a lot of time, code, and is expensive. It's better to use a product instead of writing it from scratch. It has been used to provide a Rest API to host the chats, and NPM components to help with Chat UI. The UI of chat has been edited to make it in line with the other components of the web app.
@@ -81,6 +81,7 @@ Google Firebase is a Google-backed application development software that enables
 - Add emoticons reactions 
 - Video gets highlighted for the user who speaks
 - Make the UI Accessible
+- Switch Camera Options
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
