@@ -1,0 +1,193 @@
+/* Global */
+
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Chats Page */
+
+.chats-page {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  /* background-color: #199be6; */
+  background-image: linear-gradient( #3f76eb, #5340ff);
+}
+
+.logo-tab {
+  float: left;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  width: 50%;
+}
+.logo-tab h3 {
+  margin: 0px;
+  position: absolute;
+  left: 80px;
+  top: 7px;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+
+}
+
+.logout-tab { 
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  top: 18px;
+  right: 35px;
+  cursor: pointer;
+  padding: 3px 8px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  background-color: rgb(251, 254, 255);
+  color: rgb(16, 110, 233);
+}
+.logout-tab a:hover{
+  box-shadow: 5px 10px 30px rgb(223, 237, 247);
+  transition: all ease 0.2s;
+  }
+.video-tab {
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  top: 18px;
+  right: 170px;
+  cursor: pointer;
+  padding: 3px 8px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  background-color: rgb(251, 254, 255);
+}
+.video-tab a:hover{
+  box-shadow: 5px 10px 30px white;
+  transition: all ease 0.2s;
+  }
+::-webkit-scrollbar {
+   width: 0px; /*Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+.video-tab a  {
+  color: rgb(16, 110, 233);
+  text-decoration: none;
+}
+
+.ce-active-chat-card {
+  background-image: linear-gradient( #9ecafd, #afa6ff);
+  /* background-color: rgb(171, 171, 250) !important; */
+}
+.ce-chat-subtitle-message {
+  color: rgb(14, 13, 13) !important;
+}
+.ce-chat-subtitle-date {
+  color: rgb(14, 13, 13) !important;
+}
+
+.ce-my-message-bubble {
+  background-image: linear-gradient( #009efa, #1d7efd);
+}
+.ce-their-message-bubble {
+  color: white !important;
+  background-image: linear-gradient( #a04ffc, #7b07ff);
+}
+#new-chat-plus-button {
+  background-image: linear-gradient( #26aefd, #008afc) !important;
+}
+#ce-send-message-button {
+  background-image: linear-gradient( #26aefd, #008afc) !important;
+}
+/*---------- CSS for Login Page ---------- */
+#login-page {
+  background-image: linear-gradient( #3fbaeb, #5340ff);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#login-card {
+  position: relative;
+  top: calc(50vh - 174px);
+  left: calc(50vw - 210px);
+  padding-top: 30px;
+  padding-bottom: 40px;
+  width: 420px;
+  text-align: center;
+  background-color: white;
+  border-radius: 22px;
+  box-shadow: 2px 3px #23cde4;
+}
+
+.logo {
+  height: 5%;
+}
+.welcome-msg {
+ color:#401F9F;
+}
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.google {
+  background-color: #c92828;
+  color: white;
+}
+
+.email{
+  background-color: #3fb1c5;
+  color: white;
+
+}
+
+.copyright{
+  margin-top: 220px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#loading-container {
+  position: absolute;
+  height: 100vh;
+  top: 50px;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
