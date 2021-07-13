@@ -1,7 +1,9 @@
 # [Microsoft-Engage-Link Up! 🔗:people_holding_hands:]( https://link-up.netlify.app/  )
 #### A simple and elegant web application for multi-users that brings you face-to-face 👩🏻🧑🏻 with the people who matter most and allows you to talk, text chat 💬 and share pictures both individually and in groups! The video application is based on React, Node Express and WebRTC and the chat application is based on Firebase and ChatEngine.io
 The project is deployed at https://link-up.netlify.app/
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/67543895/125393062-e204e980-e3c4-11eb-9ea9-db44aa74fa26.png)
+
 ### Connect with your peers via video calling 🤳🏻 or chat 💬!
 #### Link Up Video Call 🎦:
 - [x] User's Choice Room Name and User Name 🕺: Wish to have a room name of your choice? No worries!😌
@@ -11,6 +13,7 @@ The project is deployed at https://link-up.netlify.app/
 - [x] Mute Video/Audio 🔇🔊🎦: Pause your video or audio when needed 👀🗣️
 - [x] Screen Sharing 👩‍💻: Have to take presentations or show demo? No worries, share your screen anytime!🤠
 - [x] Full Screen View of participant's video 🖥️: Tap at the video to view in full screen! 
+
 #### Link Up Chat 💬:
 - [x] Social Authentication 🔐: Sign in using Google or Facebook (with different emails)
 - [x] Create rooms for individual chats 👩🏻‍🦱💬💬🧑🏼: Want to talk to one person only? Add only one username in the chat!
@@ -25,19 +28,20 @@ The project is deployed at https://link-up.netlify.app/
 - [x] Photos Section: See all shared or received images in the photos section
 - [x] Delete/Add Group Members
 - [x] Profile Pic
-<!-- ![image](https://user-images.githubusercontent.com/67543895/125391060-70776c00-e3c1-11eb-8da9-271f2e13c7ca.png) -->
-![image](https://user-images.githubusercontent.com/67543895/125393062-e204e980-e3c4-11eb-9ea9-db44aa74fa26.png)
- ---------------------------------------------------------------------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/67543895/125517094-10fbe971-3784-46b9-a514-ad8f69b5b77b.png)
+---------------------------------------------------------------------------------------------------------------------------------
 # Flow 
 ![image](https://user-images.githubusercontent.com/67543895/125451818-cc1853d8-3cec-4293-9aed-38b51011d955.png)
 
+---------------------------------------------------------------------------------------------------------------------------------
 # Frontend Wireframes :computer:
------------------------------------------------------------------------------------------------------------------------------------------
+
 ![image](https://user-images.githubusercontent.com/67543895/125449394-bd757ac5-3765-43fe-bf89-ee97117b0c9c.png)
 
- ---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
 # Technologies Used :file_folder:
------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Node Js ☘️
 Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools. This web app uses Node.js for server-side scripting — running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.
 ## React 🌐
@@ -64,13 +68,18 @@ Chat Engine is an API which makes it easy to build chat services. Building a cha
 Google Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics, reporting and fixing app crashes, creating marketing and product experiment. It has been used to provide social authentication using Google and Facebook!
 
 ![image](https://user-images.githubusercontent.com/67543895/125445874-af203c0b-2dc3-435a-9d44-5270aa5b8e84.png)
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Future Improvements :dart: :
+- Connect Firebase auth with video call create room page so that the user doesn't need to put username again
+- Add whiteboard
+- Add emoticons reactions 
+- Video gets highlighted for the user who speaks
 
 # Contributor:
 :octocat: [Monalika Kapoor]( https://github.com/MonalikaKapoor )
 
 # References :books: :
+- [Video Call App](https://youtu.be/ZVznzY7EjuY)
+- [Chat App](https://youtu.be/Bv9Js3QLOLY)
 
-# [Presentation](https://drive.google.com/drive/folders/1vvO7rCf0bQkRs2Pjjl7Pm3hyk7LY0Yxi?usp=sharing)
+### [Presentation](https://drive.google.com/file/d/1Y1FJ0neyI1rW8gP8u2yb5WiNi3-BXoSW/view?usp=sharing)
