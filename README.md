@@ -95,7 +95,7 @@ Google Firebase is a Google-backed application development software that enables
 - [Chat App](https://youtu.be/Bv9Js3QLOLY)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Technical Documentation 🗂️
+# Documentation 🗂️
 ### [Presentation](https://drive.google.com/file/d/1Y1FJ0neyI1rW8gP8u2yb5WiNi3-BXoSW/view?usp=sharing)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
