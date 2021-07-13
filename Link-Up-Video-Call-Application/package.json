@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "prepare-client": "cd client && npm install && npm run build",
+    "prepare-server": "cd server && npm install",
+    "heroku-postbuild": "npm run prepare-client && npm run prepare-server",
+    "start": "cd server && npm start",
+    "build": "react-scripts build"
+  },
+  "homepage": "https://linkup-video-call.herokuapp.com/",
+  "dependencies": {
+    "react-scripts": "^4.0.3"
+  }
+}
