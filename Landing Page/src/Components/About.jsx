@@ -1,6 +1,5 @@
+//Importing files
 import React from 'react';
-// import Header from './Components/Header';
-// import Feature from './Components/Feature';
 import Heading from './Headings';
 
 function About(props) {

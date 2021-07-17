@@ -1,5 +1,5 @@
+//Importing files
 import React from 'react';
-// import Header from './Components/Header';
 import image from './../images/videoConference.jpg'
 
 

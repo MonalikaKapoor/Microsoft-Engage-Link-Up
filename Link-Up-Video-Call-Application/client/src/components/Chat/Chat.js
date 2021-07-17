@@ -1,6 +1,11 @@
-//Importing Files
+//Chat.js contains the js for the chat box at the right of the video call page
+
+/*----------Importing Files----------*/
+//Importing React
 import React, { useEffect, useState, useRef } from 'react';
+//Importing styled components
 import styled from 'styled-components';
+//Importing socket
 import socket from '../../socket';
 
 const Chat = ({ display, roomId }) => {
@@ -21,7 +26,8 @@ const Chat = ({ display, roomId }) => {
   const scrollToBottom = () => {
     messagesEndRef.current.scrollIntoView({ behavior: 'smooth'});
   }
-
+  
+  //Send Message
   const sendMessage = (e) => {
     if (e.key === 'Enter') {
       const msg = e.target.value;
@@ -68,6 +74,7 @@ const Chat = ({ display, roomId }) => {
   );
 };
 
+/*----------- Styled Components ----------*/
 const ChatContainer = styled.div`
   display: flex;
   flex-direction: column;

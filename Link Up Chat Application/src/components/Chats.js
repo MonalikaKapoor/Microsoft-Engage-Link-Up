@@ -1,9 +1,12 @@
+//Chats.js contains the js for the chat page of Link Up Chats
+
+//Importing React
 import React, { useRef, useState, useEffect} from 'react';
 //Importing useHistory 
 import { useHistory, Link, Redirect } from 'react-router-dom';
 //Importing Chat Engine
 import { ChatEngine } from 'react-chat-engine';
-//Import Auth Object from firebase
+//Importing Auth Object from firebase
 import { auth } from '../firebase';
 //Calling function created in useContext
 import { useAuth} from '../contexts/AuthContext';
@@ -25,11 +28,6 @@ const Chats = () => {
 
         history.push('/'); //For users to login again
     }
-
-    // const handleVideoCall = async () => {
-    //     await auth.signOut();
-    //     history.push('/video'); //For users to login again
-    // }
 
     //Function to get user's image
     const getFile = async (url) => {

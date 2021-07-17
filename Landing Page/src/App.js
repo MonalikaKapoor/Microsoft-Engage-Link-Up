@@ -1,4 +1,6 @@
+//Importing files
 import React from 'react';
+//Importing different components
 import Header from './Components/Header';
 import Feature from './Components/Feature';
 import About from './Components/About';
@@ -6,7 +8,6 @@ import Presentation from './Components/Presentation';
 import aboutImage from'./images/About_1.png';
 import aboutImage1 from'./images/About_2.png';
 import Contact from './Components/Contact';
-import Waves from 'react.waves';
 import Heading from './Components/Headings';
 
 function App() {

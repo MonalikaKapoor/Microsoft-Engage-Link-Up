@@ -1,6 +1,5 @@
+//Importing React
 import React from 'react';
-// import Header from './Components/Header';
-
 
 function FeatureBox(props){
     return (

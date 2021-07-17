@@ -1,3 +1,4 @@
+//Importing React
 import React from 'react';
 
 function Headings(props){

@@ -1,5 +1,9 @@
-//Importing Files
+//BottomBar.js contains the js for the tool bar at the bottom of the video call page
+
+/*----------Importing Files----------*/
+//Importing React
 import React, { useCallback } from 'react';
+//Importing styled components
 import styled from 'styled-components';
 
 const BottomBar = ({
@@ -80,6 +84,7 @@ const BottomBar = ({
   );
 };
 
+/*----------- Styled Components ----------*/
 const Bar = styled.div`
   position: absolute;
   right: 0;

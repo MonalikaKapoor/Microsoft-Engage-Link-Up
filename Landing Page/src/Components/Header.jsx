@@ -1,3 +1,4 @@
+//Importing files
 import React from "react";
 import Navbar from "./Navbar";
 import MainImage from "../images/MainImage.png"

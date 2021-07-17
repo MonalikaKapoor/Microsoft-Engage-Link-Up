@@ -1,4 +1,4 @@
-# Video-Group-Meeting-Client
+# Link Up Video Call Client
 
 - React
 - WebRTC

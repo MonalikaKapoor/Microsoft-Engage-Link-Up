@@ -1,9 +1,16 @@
+/*----------Importing Files----------*/
+
+//Importing express module
 const express = require('express');
+//Creating app module
 const app = express();
+//Importing http - built in node module
 const http = require('http').createServer(app);
 //Function to call http where socket.io is going to run
+//Importing socket.io
 const io = require('socket.io')(http);
 const PORT = process.env.PORT || 3001;
+// Accessing the path module
 const path = require('path');
 //dotenv to config
 require("dotenv").config();
@@ -30,6 +37,7 @@ app.get('/ping', (req, res) => {
 });
 
 // Socket
+//When the user is forming a connection with socket.io
 io.on('connection', (socket) => {
   console.log(`New User connected: ${socket.id}`);
 
@@ -39,6 +47,8 @@ io.on('connection', (socket) => {
   });
 
   //Checking the user
+  //The BE-check-user event will get started from the client side
+  //Pulling roomId, userName and checking for validity
   socket.on('BE-check-user', ({ roomId, userName }) => {
     let error = false;
 
@@ -48,11 +58,13 @@ io.on('connection', (socket) => {
           error = true;
         }
       });
+      //If the user already exist then show error
       socket.emit('FE-error-user-exist', { error }); //If the user already exists
     });
   });
 
   /*----------------Join Room------------------ */
+  //After checking the user the BE-join-room event will get started pulling roomId and username
   socket.on('BE-join-room', ({ roomId, userName }) => {
     // Socket Join RoomName
     socket.join(roomId);

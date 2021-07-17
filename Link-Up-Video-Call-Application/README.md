@@ -21,7 +21,7 @@ Link Up Video Call is a simple video chat application for multi-users based on R
 
 ## Installation
 ### Clone
-- Clone this repo to your local machine using
+- Clone this repo to your local machine
 
 ### Setup
 **Client**

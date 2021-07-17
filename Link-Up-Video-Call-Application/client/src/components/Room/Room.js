@@ -1,13 +1,21 @@
-//Importing Files
+//Room.js contains the js for the room page for the video call where the user enters after logging in and joining in
+
+/*----------Importing Files----------*/
+//Importing React
 import React, { useState, useEffect, useRef } from 'react';
+//Importing simple-peer
 import Peer from 'simple-peer';
+//Importing styled components
 import styled from 'styled-components';
+// Importing socket
 import socket from '../../socket';
+// Importing Components
 import VideoCard from '../Video/VideoCard';
 import BottomBar from '../BottomBar/BottomBar';
 import Chat from '../Chat/Chat';
 
 const Room = (props) => {
+  //Variables for different functionalities of video call
   const currentUser = sessionStorage.getItem('user');
   const [peers, setPeers] = useState([]);
   const [userVideoAudio, setUserVideoAudio] = useState({
@@ -34,12 +42,14 @@ const Room = (props) => {
     window.addEventListener('popstate', goToBack);
 
     // Connect Camera & Mic
+    // Access for user's camera and audio
     navigator.mediaDevices
       .getUserMedia({ video: true, audio: true })
       .then((stream) => {
         userVideoRef.current.srcObject = stream;
-        userStream.current = stream;  //? Pick later
+        userStream.current = stream; 
 
+        //Join room with current room and user name
         socket.emit('BE-join-room', { roomId, userName: currentUser });
         socket.on('FE-user-join', (users) => {
           // all users
@@ -113,6 +123,7 @@ const Room = (props) => {
         });
       });
 
+    //To mute unmute the video and audio
     socket.on('FE-toggle-camera', ({ userId, switchTarget }) => {
       const peerIdx = findPeer(userId);
 
@@ -289,7 +300,8 @@ const Room = (props) => {
       screenTrackRef.current.onended();
     }
   };
-
+  
+  //To get the video on full screen
   const expandScreen = (e) => {
     const elem = e.target;
 
@@ -355,6 +367,7 @@ const Room = (props) => {
   );
 };
 
+/*----------- Styled Components ----------*/
 const RoomContainer = styled.div`
   display: flex;
   width: 100%;

@@ -5,7 +5,8 @@ import Main from './components/Main/Main';
 import Room from './components/Room/Room'
 import styled from 'styled-components';
 
-
+// Main function of the application
+// Routes of different pages of the app are mentioned for use in the react application
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
   );
 }
 
+/*----------- Styled Components ----------*/
 const AppContainer = styled.div`
   display: flex;
   flex-direction: column;

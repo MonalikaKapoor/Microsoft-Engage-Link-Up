@@ -1,8 +1,14 @@
-//Importing Files
+//Main.js contains the js for the main login page for the video call where the user enters the username and room name
+
+/*----------Importing Files----------*/
+//Importing React
 import React, { useRef, useState, useEffect } from 'react';
+//Importing styled components
 import styled from 'styled-components';
+//Importing socket
 import socket from '../../socket';
-import logo from './logo1.png'
+//Importing logo image
+import logo from './logo1.png';
 
 const Main = (props) => {
   const roomRef = useRef();
@@ -12,22 +18,24 @@ const Main = (props) => {
 
   useEffect(() => {
 
+    //Check if user already exists that is there is already a user with the same name in the room
     socket.on('FE-error-user-exist', ({ error }) => {
       if (!error) {
-        const roomName = roomRef.current.value;
+        const roomName = roomRef.current.value; 
         const userName = userRef.current.value;
 
         sessionStorage.setItem('user', userName);
         props.history.push(`/room/${roomName}`);
       } else {
         setErr(error);
-        setErrMsg('User name already exist');
+        setErrMsg('User name already exist'); //Show error message
       }
     });
   }, [props.history]);
 
+  //Function to join the room
   function clickJoin() {
-    const roomName = roomRef.current.value;
+    const roomName = roomRef.current.value; //Putting the current room and username values
     const userName = userRef.current.value;
 
     //To show error message when there's either no room name or username
@@ -45,8 +53,6 @@ const Main = (props) => {
       <MainContainer>
         <Row>
           <Logo><img className="img" src={logo} alt='logo'/></Logo>
-          {/* <Name><h4 color="rgb(58, 32, 99);">Link Up </h4></Name> */}
-          {/* <Img className={logo}> Link Up </Img> */}
         </Row>
         <Row>
           <Label htmlFor="roomName">Room Name</Label>

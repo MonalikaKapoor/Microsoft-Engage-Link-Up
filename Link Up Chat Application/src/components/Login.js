@@ -1,9 +1,12 @@
+//Login.js contains the js for the login page of Link Up Chats
+
 //Importing React 
 import React from 'react';
 //Importing Google and Facebook Icons
 import { GoogleOutlined, FacebookOutlined, MailOutlined } from '@ant-design/icons';
 import "firebase/app";
-import logo from './logo1.png'
+import logo from './logo1.png';
+//Imporing Auth Object from firebase
 import { auth } from '../firebase';
 import firebase from 'firebase/app';
 
